@@ -1,43 +1,33 @@
-import React, { useState } from 'react';
-import { Container, Typography, TextField, Button, Box } from '@mui/material';
+// App.js
+
+import React from "react";
+import { Container, Typography, TextField, Button, Paper } from "@mui/material";
+import { motion } from "framer-motion";
 
 function App() {
-  const [journalEntry, setJournalEntry] = useState('');
-  const [analysisResult, setAnalysisResult] = useState(null);
-
-  const handleSubmit = () => {
-    // This is where backend call will go
-    console.log("Submitted:", journalEntry);
-    setAnalysisResult("This is where the analysis result will show.");
-  };
-
   return (
-    <Container maxWidth="md" sx={{ mt: 5 }}>
-      <Typography variant="h4" gutterBottom>
-        Mental Health Journal Analyzer
-      </Typography>
-
-      <TextField
-        label="Write your journal entry"
-        multiline
-        rows={6}
-        fullWidth
-        value={journalEntry}
-        onChange={(e) => setJournalEntry(e.target.value)}
-        variant="outlined"
-        sx={{ mb: 2 }}
-      />
-
-      <Button variant="contained" onClick={handleSubmit}>
-        Analyze Entry
-      </Button>
-
-      {analysisResult && (
-        <Box mt={4}>
-          <Typography variant="h6">Analysis Result:</Typography>
-          <Typography>{analysisResult}</Typography>
-        </Box>
-      )}
+    <Container maxWidth="sm" sx={{ mt: 8 }}>
+      <motion.div
+        initial={{ opacity: 0, y: 30 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.6 }}
+      >
+        <Paper elevation={6} sx={{ p: 4, borderRadius: 4 }}>
+          <Typography variant="h4" gutterBottom>
+            🧠 Mental Health Journal
+          </Typography>
+          <TextField
+            label="Write your thoughts..."
+            multiline
+            rows={6}
+            fullWidth
+            sx={{ mb: 2 }}
+          />
+          <Button variant="contained" fullWidth>
+            Analyze Entry
+          </Button>
+        </Paper>
+      </motion.div>
     </Container>
   );
 }
