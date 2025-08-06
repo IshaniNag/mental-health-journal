@@ -1,6 +1,8 @@
 # 🧠 Mental Health Journal Analyzer
 
-A simple React + Material UI web app that helps you write journal entries and analyze your mental health using AI.
+A simple React + Material UI web app that helps you write journal entries and analyze your mental health using AI. 
+
+🚧 Please note - This project is currently under development.
 
 ## 💡 Features
 
