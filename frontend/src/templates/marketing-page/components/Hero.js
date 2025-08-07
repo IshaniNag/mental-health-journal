@@ -95,9 +95,8 @@ export default function Hero() {
               width: { sm: '100%', md: '80%' },
             }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality solutions
-            tailored to your needs. Elevate your experience with top-tier features
-            and services.
+            Track your thoughts, emotions, and mental well-being with the power of AI. 
+            This intelligent journal analyzer gives you insights that help you grow, heal, and thrive.
           </Typography>
           <Stack
             direction={{ xs: 'column', sm: 'row' }}
