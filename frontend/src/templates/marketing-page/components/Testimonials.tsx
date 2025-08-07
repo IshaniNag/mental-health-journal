@@ -80,7 +80,7 @@ const logoStyle = {
 export default function Testimonials() {
   const { mode, systemMode } = useColorScheme();
 
-  let logos;
+  let logos: string[];
   if (mode === 'system') {
     if (systemMode === 'light') {
       logos = lightModeLogos;
