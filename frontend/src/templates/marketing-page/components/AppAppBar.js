@@ -63,7 +63,7 @@ export default function AppAppBar() {
                 Highlights
               </Button>
               <Button variant="text" color="info" size="small">
-                Pricing
+                Services
               </Button>
               <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
                 FAQ
@@ -118,7 +118,7 @@ export default function AppAppBar() {
                 <MenuItem>Features</MenuItem>
                 <MenuItem>Testimonials</MenuItem>
                 <MenuItem>Highlights</MenuItem>
-                <MenuItem>Pricing</MenuItem>
+                <MenuItem>Services</MenuItem>
                 <MenuItem>FAQ</MenuItem>
                 <MenuItem>Blog</MenuItem>
                 <Divider sx={{ my: 3 }} />
