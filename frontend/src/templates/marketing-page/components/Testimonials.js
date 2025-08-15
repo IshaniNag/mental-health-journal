@@ -13,44 +13,44 @@ const userTestimonials = [
   {
     avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />,
     name: 'Remy Sharp',
-    occupation: 'Senior Engineer',
+    occupation: 'Mindfulness Coach',
     testimonial:
-      "I absolutely love how versatile this product is! Whether I'm tackling work projects or indulging in my favorite hobbies, it seamlessly adapts to my changing needs. Its intuitive design has truly enhanced my daily routine, making tasks more efficient and enjoyable.",
+      "This journal analyzer has been life-changing! Writing my thoughts and getting instant feedback on my emotional patterns has helped me understand myself so much better. I feel more in control and less overwhelmed by my emotions.",
   },
   {
     avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />,
     name: 'Travis Howard',
-    occupation: 'Lead Product Designer',
+    occupation: 'Therapist',
     testimonial:
-      "One of the standout features of this product is the exceptional customer support. In my experience, the team behind this product has been quick to respond and incredibly helpful. It's reassuring to know that they stand firmly behind their product.",
+      "The support and guidance this tool provides are amazing. Whenever I feel stuck, the analysis offers gentle prompts and insights that keep me moving toward a healthier mindset. It feels like a personal wellness coach in my pocket.",
   },
   {
     avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />,
     name: 'Cindy Baker',
-    occupation: 'CTO',
+    occupation: 'Wellness Blogger',
     testimonial:
-      'The level of simplicity and user-friendliness in this product has significantly simplified my life. I appreciate the creators for delivering a solution that not only meets but exceeds user expectations.',
+      'The simplicity of this app makes it a joy to use every day. I just open it, write, and within seconds I get helpful, compassionate insights about my mental state. It’s helped me track my progress and notice patterns I never saw before.',
   },
   {
     avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/4.jpg" />,
     name: 'Julia Stewart',
-    occupation: 'Senior Engineer',
+    occupation: 'Mental Health Advocate',
     testimonial:
-      "I appreciate the attention to detail in the design of this product. The small touches make a big difference, and it's evident that the creators focused on delivering a premium experience.",
+      "The attention to detail in the feedback is remarkable. It’s not just generic suggestions — it’s tailored to my writing and feels deeply personal. That makes a huge difference when working on mental health.",
   },
   {
     avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/5.jpg" />,
     name: 'John Smith',
-    occupation: 'Product Designer',
+    occupation: 'Self-Development Author',
     testimonial:
-      "I've tried other similar products, but this one stands out for its innovative features. It's clear that the makers put a lot of thought into creating a solution that truly addresses user needs.",
+      "I’ve used other journaling tools, but this one stands out because of how well it blends emotional analysis with practical suggestions. It’s helped me turn my journaling into a real tool for self-improvement.",
   },
   {
     avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/6.jpg" />,
     name: 'Daniel Wolf',
-    occupation: 'CDO',
+    occupation: 'Life Coach',
     testimonial:
-      "The quality of this product exceeded my expectations. It's durable, well-designed, and built to last. Definitely worth the investment!",
+      "The quality of insights I’ve gained from this analyzer is beyond what I expected. It’s helped me recognize triggers, celebrate progress, and approach my days with more positivity. Absolutely worth it.",
   },
 ];
 
@@ -121,9 +121,9 @@ export default function Testimonials() {
           Testimonials
         </Typography>
         <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-          See what our customers love about our products. Discover how we excel in
-          efficiency, durability, and satisfaction. Join us for quality, innovation,
-          and reliable support.
+          See how our users are improving their well-being and gaining clarity through journaling. 
+          Discover how our analyzer supports mental wellness, reflection, and emotional growth. 
+          Join a community dedicated to mindfulness, self-care, and personal insight.
         </Typography>
       </Box>
       <Grid container spacing={2}>
