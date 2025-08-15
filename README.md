@@ -14,7 +14,7 @@ A simple React + Material UI web app that helps you write journal entries and an
 ## 🚀 Tech Stack
 
 - **Frontend**: React, JavaScript
-- **UI**: Material UI, Framer Motion
+- **UI**: Material UI, Framer Motion, SVG Icons (Miscellaneous)
 - **Version Control**: Git + GitHub
 
 ## 🛠️ Setup Instructions
