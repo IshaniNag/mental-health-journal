@@ -15,39 +15,39 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 const items = [
   {
     icon: <SettingsSuggestRoundedIcon />,
-    title: 'Adaptable performance',
+    title: 'Personalized Insights',
     description:
-      'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+      'Our analyzer adapts to your unique journaling style, offering tailored reflections that help you better understand your emotions and mental patterns.',
   },
   {
     icon: <ConstructionRoundedIcon />,
-    title: 'Built to last',
+    title: 'Consistent Support',
     description:
-      'Experience unmatched durability that goes above and beyond with lasting investment.',
+      'Built to provide reliable mental health tracking over time, ensuring continuity in your self-care journey.',
   },
   {
     icon: <ThumbUpAltRoundedIcon />,
-    title: 'Great user experience',
+    title: 'Intuitive Experience',
     description:
-      'Integrate our product into your routine with an intuitive and easy-to-use interface.',
+      'Easily integrate journaling into your daily routine with a user-friendly interface designed to reduce friction and encourage consistency.',
   },
   {
     icon: <AutoFixHighRoundedIcon />,
-    title: 'Innovative functionality',
+    title: 'Smart Innovation',
     description:
-      'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
+      'Leverage advanced AI to uncover trends, moods, and triggers, empowering you with knowledge to take proactive steps for your mental health.',
   },
   {
     icon: <SupportAgentRoundedIcon />,
-    title: 'Reliable support',
+    title: 'Compassionate Guidance',
     description:
-      'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+      'Receive thoughtful prompts and recommendations that extend beyond analysis, helping you feel supported every step of the way.',
   },
   {
     icon: <QueryStatsRoundedIcon />,
-    title: 'Precision in every detail',
+    title: 'Attention to detail',
     description:
-      'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+      'Every feature is carefully crafted—from mood tracking to sentiment visualization—ensuring even the smallest detail enhances your self-reflection journey.',
   },
 ];
 
@@ -81,9 +81,7 @@ export default function Highlights() {
             Highlights
           </Typography>
           <Typography variant="body1" sx={{ color: 'grey.400' }}>
-            Explore why our product stands out: adaptability, durability,
-            user-friendly design, and innovation. Enjoy reliable customer support and
-            precision in every detail.
+            Discover why our Mental Health Journal Analyzer stands out: insightful analysis, ease of use, personalized guidance, and innovation. Designed to support your well-being with care and precision.
           </Typography>
         </Box>
         <Grid container spacing={2}>
