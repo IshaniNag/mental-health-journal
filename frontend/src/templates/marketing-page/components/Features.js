@@ -23,7 +23,7 @@ const items = [
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
-    title: 'Mobile journaling',
+    title: 'Mobile Journaling',
     description:
       'Log thoughts, moods, and reflections on-the-go with seamless mobile integration, ensuring your journal is always with you.',
     imageLight: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/mobile-light.png")`,
