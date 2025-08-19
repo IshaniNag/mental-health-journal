@@ -55,7 +55,7 @@ export default function FAQ() {
             id="panel1d-header"
           >
             <Typography component="span" variant="subtitle2">
-              How do I contact customer support if I have a question or issue?
+              How do I get support if I face issues using the analyzer?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -65,9 +65,8 @@ export default function FAQ() {
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
               You can reach our customer support team by emailing&nbsp;
-              <Link href="mailto:support@email.com">support@email.com</Link>
-              &nbsp;or calling our toll-free number. We&apos;re here to assist you
-              promptly.
+              <Link href="mailto:support@email.com">support@mhjanalyzer.com</Link>
+              &nbsp;.We&apos;re here to provide quick assistance and helpful resources so you never feel stuck.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -81,7 +80,7 @@ export default function FAQ() {
             id="panel2d-header"
           >
             <Typography component="span" variant="subtitle2">
-              Can I return the product if it doesn&apos;t meet my expectations?
+              Can I cancel my subscription if it doesn&apos;t meet my needs?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -90,9 +89,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Absolutely! We offer a hassle-free return policy. If you&apos;re not
-              completely satisfied, you can return the product within [number of
-              days] days for a full refund or exchange.
+              Yes! We offer a flexible cancellation policy. If the Mental Health Journal Analyzer doesn&apos;t meet your expectations, you can cancel within the trial period or adjust your plan anytime without hassle.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -106,7 +103,7 @@ export default function FAQ() {
             id="panel3d-header"
           >
             <Typography component="span" variant="subtitle2">
-              What makes your product stand out from others in the market?
+              What makes this analyzer different from other mental health apps?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -115,9 +112,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Our product distinguishes itself through its adaptability, durability,
-              and innovative features. We prioritize user satisfaction and
-              continually strive to exceed expectations in every aspect.
+              Unlike traditional journaling apps, our tool goes beyond note-taking. It uses AI-driven insights to detect mood patterns, emotional trends, and stress triggers—helping you gain a deeper understanding of your mental well-being while prioritizing privacy and personalization.
             </Typography>
           </AccordionDetails>
         </Accordion>
@@ -131,7 +126,7 @@ export default function FAQ() {
             id="panel4d-header"
           >
             <Typography component="span" variant="subtitle2">
-              Is there a warranty on the product, and what does it cover?
+              Is my data secure and private?
             </Typography>
           </AccordionSummary>
           <AccordionDetails>
@@ -140,10 +135,7 @@ export default function FAQ() {
               gutterBottom
               sx={{ maxWidth: { sm: '100%', md: '70%' } }}
             >
-              Yes, our product comes with a [length of warranty] warranty. It covers
-              defects in materials and workmanship. If you encounter any issues
-              covered by the warranty, please contact our customer support for
-              assistance.
+              Absolutely. Your journal entries are encrypted and never shared without your consent. We follow strict data protection standards to ensure your reflections remain safe and confidential.
             </Typography>
           </AccordionDetails>
         </Accordion>
