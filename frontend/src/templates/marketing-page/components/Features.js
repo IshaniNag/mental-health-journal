@@ -18,8 +18,10 @@ const items = [
     title: 'Insightful Dashboard',
     description:
       'Get a clear snapshot of your moods, emotional patterns, and journaling trends through easy-to-understand visualizations and analytics.',
-    imageLight: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/dash-light.png")`,
-    imageDark: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/dash-dark.png")`,
+    //imageLight: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/dash-light.png")`,
+    imageLight: `url("https://plus.unsplash.com/premium_photo-1666855258034-8d2c36091ec1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
+    imageDark: `url("https://plus.unsplash.com/premium_photo-1666855258034-8d2c36091ec1?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D")`,
+    //imageDark: `url("${process.env.TEMPLATE_IMAGE_URL || 'https://mui.com'}/static/images/templates/templates-images/dash-dark.png")`,
   },
   {
     icon: <EdgesensorHighRoundedIcon />,
@@ -89,6 +91,7 @@ function MobileLayout({ selectedItemIndex, handleItemClick, selectedFeature }) {
             mb: 2,
             backgroundSize: 'cover',
             backgroundPosition: 'center',
+            backgroundRepeat: 'no-repeat',
             minHeight: 280,
             backgroundImage: 'var(--items-imageLight)',
             ...theme.applyStyles('dark', {
@@ -248,7 +251,8 @@ export default function Features() {
                 m: 'auto',
                 width: 420,
                 height: 500,
-                backgroundSize: 'contain',
+                backgroundSize: 'cover',
+                backgroundRepeat: 'no-repeat',
                 backgroundImage: 'var(--items-imageLight)',
                 ...theme.applyStyles('dark', {
                   backgroundImage: 'var(--items-imageDark)',
