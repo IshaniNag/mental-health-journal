@@ -2,7 +2,7 @@
 
 A simple React + Material UI web app that helps you write journal entries and analyze your mental health using AI. 
 
-🚧 Please note - This project is currently under development.
+🚧 Please note - This project is currently under development with only a sample UI present.
 
 ## 💡 Features
 
