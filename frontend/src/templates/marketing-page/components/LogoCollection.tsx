@@ -5,9 +5,9 @@ import Grid from '@mui/material/Grid';
 import { useColorScheme } from '@mui/material/styles';
 
 const darkModeLogos = [
-  'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560628e8573c43893fe0ace_Sydney-white.svg',
-  'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f4d520d0517ae8e8ddf13_Bern-white.svg',
-  'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f46794c159024c1af6d44_Montreal-white.svg',
+  'https://www.torxmedia.com/wp-content/uploads/2022/11/logoipsum-600x600.png',
+  'https://uploads-ssl.webflow.com/5c3a510a91db03828e568da1/5c3a6a8c652ba077e9640881_Logo%205%20Copy%209.svg',
+  'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTMF3JIzEUr2XSCY1lJwfQfIZY2G4G-wom4Q&s',
   'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/61f12e891fa22f89efd7477a_TerraLight.svg',
   'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/6560a09d1f6337b1dfed14ab_colorado-white.svg',
   'https://assets-global.website-files.com/61ed56ae9da9fd7e0ef0a967/655f5caa77bf7d69fb78792e_Ankara-white.svg',
