@@ -17,10 +17,10 @@ const tiers = [
     title: 'Free',
     price: '0',
     description: [
-      '10 users included',
-      '2 GB of storage',
-      'Help center access',
-      'Email support',
+      'Unlimited journal entries',
+      'Basic sentiment analysis',
+      'Simple mood tracking',
+      'Community support',
     ],
     buttonText: 'Sign up for free',
     buttonVariant: 'outlined',
@@ -31,12 +31,10 @@ const tiers = [
     subheader: 'Recommended',
     price: '15',
     description: [
-      '20 users included',
-      '10 GB of storage',
-      'Help center access',
+      'Advanced sentiment analysis with detailed insights',
+      'Mood trends & progress analytics',
+      'Custom reminders for journaling',
       'Priority email support',
-      'Dedicated team',
-      'Best deals',
     ],
     buttonText: 'Start now',
     buttonVariant: 'contained',
@@ -46,10 +44,10 @@ const tiers = [
     title: 'Enterprise',
     price: '30',
     description: [
-      '50 users included',
-      '30 GB of storage',
-      'Help center access',
-      'Phone & email support',
+      'Multi-user access (for teams, therapists, or organizations)',
+      'Secure data management with advanced privacy controls',
+      'Analytics dashboard for multiple clients/patients',
+      'Dedicated support team (phone & email)',
     ],
     buttonText: 'Contact us',
     buttonVariant: 'outlined',
@@ -86,10 +84,8 @@ export default function Pricing() {
           Pricing
         </Typography>
         <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-          Quickly build an effective pricing table for your potential customers with
-          this layout. <br />
-          It&apos;s built with default Material UI components with little
-          customization.
+          Find the right plan for your journaling and mental wellness needs. <br />
+          Our plans are simple, flexible, and designed to support both individuals and organizations.
         </Typography>
       </Box>
       <Grid
